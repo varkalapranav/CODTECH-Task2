@@ -1,9 +1,9 @@
-Name : MANDAGALLA DINESH 
-Company : CODTECH IT SOLUTIONS
-ID : CT08PP605
-Domain : JAVA PROGRAMMING
-Duration : 20th MAY to 20th JUNE 2024
-Mentor : SRAVANI GOUNI
+Name : MANDAGALLA DINESH                       
+Company : CODTECH IT SOLUTIONS  
+ID : CT08PP605  
+Domain : JAVA PROGRAMMING  
+Duration : 20th MAY to 20th JUNE 2024  
+Mentor : SRAVANI GOUNI  
 
 
 # 🏦 Banking System Project
