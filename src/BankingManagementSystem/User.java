@@ -28,7 +28,7 @@ public class User {
             System.out.println("User Already Exists for this Email Address, now you can log in!!");
             return;
         }
-        String register_query = "INSERT INTO User(full_name, email, password) VALUES(?, ?, ?)";
+        String register_query = "INSERT INTO Users(full_name, email, password) VALUES(?, ?, ?)";
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(register_query);
             preparedStatement.setString(1, full_name);
@@ -51,7 +51,7 @@ public class User {
         String email = scanner.nextLine();
         System.out.print("Password: ");
         String password = scanner.nextLine();
-        String login_query = "SELECT * FROM User WHERE email = ? AND password = ?";
+        String login_query = "SELECT * FROM Users WHERE email = ? AND password = ?";
         try{
             PreparedStatement preparedStatement = connection.prepareStatement(login_query);
             preparedStatement.setString(1, email);
@@ -69,7 +69,7 @@ public class User {
     }
 
     public boolean user_exist(String email){
-        String query = "SELECT * FROM User WHERE email = ?";
+        String query = "SELECT * FROM Users WHERE email = ?";
         try{
             PreparedStatement preparedStatement = connection.prepareStatement(query);
             preparedStatement.setString(1, email);
