@@ -1,8 +1,5 @@
 package BankingManagementSystem;
-
 import java.sql.*;
-import java.util.Scanner;
-
 import java.util.Scanner;
 
 import static java.lang.Class.forName;
@@ -10,7 +7,7 @@ import static java.lang.Class.forName;
 public class BankingApp {
     private static final String url = "jdbc:mysql://localhost:3306/banking_system";
     private static final String username = "root";
-    private static final String password = "Admin@123";
+    private static final String password = "@Dinesh123";
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         try{
