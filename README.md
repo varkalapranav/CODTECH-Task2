@@ -1,6 +1,6 @@
-Name : MANDAGALLA DINESH                       
+Name : VARKALA PRANAV                      
 Company : CODTECH IT SOLUTIONS  
-ID : CT08PP605  
+ID : CT08PD915
 Domain : JAVA PROGRAMMING  
 Duration : 20th MAY to 20th JUNE 2024  
 Mentor : SRAVANI GOUNI  
